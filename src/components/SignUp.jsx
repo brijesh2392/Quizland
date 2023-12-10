@@ -31,7 +31,7 @@ const SignUp = () => {
             <div className="max-w-[320px] mx-auto py-16">
               <div className="flex justify-end">
                 <button
-                  className="text-white text-xl cursor-pointer relative md:-top-24 -top-24 md:left-28 left-1 "
+                  className="text-white text-xl cursor-pointer absolute top-0 md:right-20 right-2 "
                   onClick={handleClose}
                 >
                   &#10006;

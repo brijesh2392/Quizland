@@ -50,8 +50,8 @@ const QuizPage = () => {
     >
       <div className=" flex flex-col items-center justify-around my-6 ">
         {currentQuestion && (
-          <div>
-            <div className=" w-[700px] bg-blue-950 text-white p-3 h-20 rounded-xl">
+          <div className=" md:w-[700px] w-[90%] h-auto">
+            <div className=" bg-blue-950 text-white p-3  rounded-xl">
               Qs {currentQueIndex + 1}: {currentQuestion.question}
             </div>
             <ol>

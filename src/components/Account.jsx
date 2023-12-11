@@ -14,7 +14,7 @@ const Account = () => {
       </div>
 
       <div>
-        {user ? <h1>Username: {user.email}</h1> : navigate("/login") && null}
+        {user ? <h1 className=" font-bold md:text-3xl text-xl">Username: {user.email}</h1> : navigate("/login") && null}
       </div>
     </div>
   );

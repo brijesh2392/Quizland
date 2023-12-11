@@ -3,6 +3,7 @@ import Button from "../Button";
 import QuestionData from "../../data/Question.json";
 import { Link } from "react-router-dom";
 import background2 from "../../assets/background2.jpg";
+import '../../App.css';
 
 const QuizPage = () => {
   const [currentQueIndex, setCurrentQueIndex] = useState(0);
@@ -45,7 +46,7 @@ const QuizPage = () => {
   return (
     <div
       div
-      className=" py-12 md:text-xl text-base bg-gradient-to-tr from-[#004c5b] to-[#0976c0] "
+      className=" py-12 md:text-xl text-base  "
       // style={{ backgroundImage: `url(${background2})` }}
     >
       <div className=" flex flex-col items-center justify-around my-6 ">
